@@ -247,6 +247,6 @@ print (f"""
 \n{rd}    | {gn}Config {lrd}[{lgn}5{lrd}] {yw}-- {gn}Vless  {lrd}[{lgn}6{lrd}] {yw}-- {gn}TrSe {lrd}[{lgn}7{lrd}] {yw}-- {gn}RDM   {lrd}[{lgn}8{lrd}] {rd}|""")
 
 proxy = input(f"\n{lrd}[{lgn}?{lrd}] {yw}Enter protocol : {cn}")
-Name_File = input(f"\n{lrd}[{lgn}+{lrd}] {cn}Please enter the path and name of the file you want the proxies to be saved in : ")
+Name_File = input(f"\n{lrd}[{lgn}+{lrd}] {cn}Insert the path and name of the file you want the proxies to be saved in : ")
 Save = input(f"\n{lrd}[{lgn}+{lrd}] {cn}Do you want to see the config/proxies in the terminal? [Y/N]")
 APIS_PROXY(proxy,Name_File,Save)
